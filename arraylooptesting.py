@@ -21,20 +21,20 @@ import sys
 
 # Define a main() function that prints a little greeting.
 def main():
-  # get value of length of the array
   arrayLenght = len(sys.argv)
-  print('length of the array : ', arrayLenght)
-
-  for i, x in enumerate9(sys.argv, 0):
-    prefix = 'th'
-  if i == 1: 
-    prefix = 'st' 
-  if i >= 1:
-    print('', i , '' prefix ,'parameter :', x)
-
-
-
+  print ('Lenght of the array : ', arrayLenght) 
   
+#  for x in sys.argv:
+#    print(x)
+ 
+  for i, x in enumerate(sys.argv, 0):
+    prefix = 'th'
+    if i == 1:
+      prefix = 'st'
+	  
+    if i >= 1:
+      print(' ', i ,' ', prefix ,' Parameter :', x)
+
 
 # This is the standard boilerplate that calls the main() function.
 if __name__ == '__main__':
