@@ -26,13 +26,13 @@ def main():
   
 #  for x in sys.argv:
 #    print(x)
-
+ 
   for i, x in enumerate(sys.argv, 0):
     prefix = 'th'
     if i == 1:
       prefix = 'st'
-  Parameter == genfromtxt ('names')
-  if i >= 1:
+	  
+    if i >= 1:
       print(' ', i ,' ', prefix ,' Parameter :', x)
 
 
