@@ -12,6 +12,6 @@ if x == 'division':
 if x == 'multiplication':
   resultNum = int(num1) * int(num2)
 
-print('the ',x,' of ',num1,' and ',num2,' is {3}', resultNum )
+print('the ',x,' of ',num1,' and ',num2,' is',resultNum)
 
 
